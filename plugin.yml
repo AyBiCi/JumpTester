@@ -1,0 +1,14 @@
+name: JumpTester
+main: Wuzory.JumpTester.MainJumpTester
+version: 6.6.6
+author: wuza8
+commands:
+    settestloc:
+        description: Starts testing on location that player stands.
+        usage: /settestloc
+    stoptesting:
+        description: Stops testing.
+        usage: /stoptesting
+    testitem:
+        description: Gives item that is used to teleport back to tested location.
+        usage: /testitem
